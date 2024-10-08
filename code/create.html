@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Create an Account</title>
     <script src="https://kit.fontawesome.com/e2eb016591.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/login.css">
 </head>
@@ -16,9 +16,16 @@
                 </div>
                 <div class="create-form">
                     <div class="form-header">
-                        <h2>Login</h2>
+                        <h2>Create an account</h2>
+                        <a href="login.html">log in instead</a>
                     </div>
                     <form>
+                        <label for="firstname">Firstname</label>
+                        <input type="text" id="firstname" name="firstname" required>
+        
+                        <label for="lastname">Lastname</label>
+                        <input type="text" id="lastname" name="lastname" required>
+
                         <label for="email">Email</label>
                         <input type="email" id="email" name="email" required>
         
@@ -30,12 +37,12 @@
                             <label for="terms">By creating an account, I agree to our Terms of use and Privacy Policy.</label>
                         </div>
         
-                        <button type="submit">Login</button>
+                        <button type="submit">Create an account</button>
                         <div class="line">
                             <span class="text">Or</span>
                         </div>
                         <button type="button" class="google-btn">
-                            <i class="fa-brands fa-google"></i>Continue with Google</button>
+                            <i class="fa-brands fa-google"></i> Continue with Google</button>
                     </form>
                 </div>
             </div>
