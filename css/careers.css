@@ -229,12 +229,12 @@ nav ul {
   }
 
   .benefit-container{
-       max-width: 1670px;
-       flex-wrap: wrap;
-       max-width: 1670px;
-       margin: 0 auto;
-       padding: 0 20px;
-       justify-content: space-between;
+    max-width: 1670px;
+    flex-wrap: wrap;
+    max-width: 1670px;
+    margin: 0 auto;
+    padding: 0 20px;
+    justify-content: space-between;
   }
   .benefit-tittle{
     margin-bottom: 36px;
@@ -394,12 +394,126 @@ nav ul {
   }
   
 
-/*  */
+/* values-section */
+
+
+.values-section {
+  padding: 60px 20px;
+}
+
+.values-container{
+  max-width: 1670px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.values-tittle h2 {
+  margin-bottom: 12px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+  letter-spacing: -5px;
+  color: #2B2B39;
+}
+
+.values-tittle p {
+  width: 50%;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.66px;
+  color: #5F5F75;
+  margin-bottom: 40px;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.value-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.value-item img {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6059C9;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 18px;
+  margin-right: 24px;
+}
+
+.value-text {
+  text-align: left;
+}
+
+.value-text h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.88px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #2B2B39;
+  margin-bottom: 12px;
+
+}
+
+.value-text p {
+  font-family: Sen;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.66px;
+  color: #5F5F75; 
+}
 
 
 
+/* recruitment-sections */
 
+.recruitment-section {
+  background-color: #fdf4e2;
+  padding: 60px 20px;
+  text-align: center;
+}
 
+.recruitment-container {
+  max-width: 1670px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.recruitment-tittle h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+  letter-spacing: -5px;
+  margin-bottom: 24px;
+  
+}
+
+.recruitment-tittle p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.66px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.recruitment-image img {
+  max-width: 100%;
+  border-radius: 8px;
+}
 
 
 
