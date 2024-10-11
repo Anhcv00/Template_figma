@@ -36,6 +36,8 @@ ul{
 }
 
 
+
+
 /* Container for responsive width */
 
 
@@ -50,6 +52,9 @@ header {
   padding: 10px 20px;
   z-index: 1000;
   transition: box-shadow 0.3s ease;
+}
+.header{
+  height: 70px;
 }
 
 header.scrolled {
@@ -78,11 +83,11 @@ header.scrolled {
   transition: background-color 0.3s, border-color 0.3s;
 }
 
-.logo ul:hover {
+/* .logo ul:hover {
   cursor: pointer;
   background-color: #ffd700;
   border-color: #ffd700;
-}
+} */
 
 .logo ul li {
   padding: 6px;
@@ -143,6 +148,60 @@ nav ul li a:hover {
 
 nav ul li a i {
   margin-right: 6px;
+}
+
+/* Auth buttons styles */
+
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+}
+.auth-buttons a{
+  color: #FFFCF7;
+}
+
+.start-campaign {
+  margin-right: 12px;
+  background-color: #6059C9;
+  color: #fff;
+  border: none;
+  width: 188px;
+  height: 36px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.auth-buttons-hover{
+  transition: background-color 0.3s ease;
+}
+
+.auth-buttons-hover:hover{
+  background-color: #F5EFE0;
+}
+
+.sign-up, .sign-in {
+  width: 103px;
+  height: 36px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sign-up {
+  background-color: #FFC20E;
+  border-radius: 10px 0 0 10px;
+  color: #fff;
+}
+
+.sign-in {
+  background-color: #6059C9;
+  border-radius: 0 10px 10px 0;
+  color: #fff;
 }
 
 /* ------------------- Careers -------------------------- */

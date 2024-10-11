@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./img/logo.png" type="image/png">
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400..800&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
                     <a href="./index.html">
                         <img src="./img/campoal-logo-impact 1.png" alt="Logo">
                     </a>
-                    <ul>
+                    <ul class="auth-buttons-hover">
                         <li><a href="#"><i class="fa-duotone fa-solid fa-globe"></i>Global</a></li>
                     </ul>
                 </div>
@@ -36,13 +36,13 @@
                         </ul>
                     </nav>
                     <div class="auth-buttons">
-                        <button class="start-campaign">
+                        <button class="start-campaign auth-buttons-hover">
                             <i class="fa-duotone fa-solid fa-pen-to-square"></i> Start a campaign
                         </button>
-                        <button class="sign-up">
+                        <button class="sign-up auth-buttons-hover">
                             <a href="./create.html">Sign up</a>
                         </button>
-                        <button class="sign-in">
+                        <button class="sign-in auth-buttons-hover">
                             <a href="./login.html">Sign in</a>
                         </button>
                     </div>
@@ -51,78 +51,184 @@
         </div>
     </header>
 
+
     <section class="banner-section">
-        <div class="banner-container">
-            <div class="banner-details">
-                <div class="banner-text">
-                    <h2>Hola, What’s up?</h2>
-                    <p>Conikal build the Powerful Platform base on WordPress with latest technology. We offers the fastest way for Webmaster start their Platforms.</p>
+        <div class="container">
+            <div class="banner-content d-flex">
+                <div class="banner-details">
+                    <div class="banner-text">
+                        <h2>Hola, What’s up?</h2>
+                        <p>Conikal build the Powerful Platform base on WordPress with latest technology. We offers the fastest way for Webmaster start their Platforms.</p>
+                    </div>
+                    <div class="banner-tags">
+                        <div class="banner-items">
+                            <div class="items-icon">
+                                <img src="./img/contact-bn-i-2.png" alt="contact item 1">
+                            </div>
+                            <div class="items-text">
+                                <h4>Address</h4>
+                                <p>17224 S. Figueroa Street, Gardena, CA 90248, USA</p>
+                            </div>
+                        </div>
+                        <div class="banner-items">
+                            <div class="items-icon">
+                                <img src="./img/contact-bn-i-2.png" alt="contact item 1">
+                            </div>
+                            <div class="items-text">
+                                <h4>Email</h4>
+                                <p>contact@conikal.com</p>
+                            </div>
+                        </div>
+                        <div class="banner-items">
+                            <div class="items-icon">
+                                <img src="./img/contact-bn-i-1.png" alt="contact item 1">
+                            </div>
+                            <div class="items-text">
+                                <h4>Phone numbers</h4>
+                                <p>+1 415 800-3128</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="banner-tags">
-                    <div class="banner-items">
-                        <div class="items-icon">
-                            <img src="./img/contact-bn-i-2.png" alt="contact item 1">
-                        </div>
-                        <div class="items-text">
-                            <h4>Address</h4>
-                            <p>17224 S. Figueroa Street, Gardena, CA 90248, USA</p>
-                        </div>
-                    </div>
-                    <div class="banner-items">
-                        <div class="items-icon">
-                            <img src="./img/contact-bn-i-3.png" alt="contact item 1">
-                        </div>
-                        <div class="items-text">
-                            <h4>Email</h4>
-                            <p>contact@conikal.com</p>
-                        </div>
-                    </div>
-                    <div class="banner-items">
-                        <div class="items-icon">
-                            <img src="./img/contact-bn-i-1.png" alt="contact item 1">
-                        </div>
-                        <div class="items-text">
-                            <h4>Phone numbers</h4>
-                            <p>+1 415 800-3128</p>
-                        </div>
-                    </div>
+                <div class="banner-img">
+                    <img src="./img/contact-banner.png" alt="Contact banner images">
                 </div>
-            </div>
-            <div class="banner-img">
-                <img src="./img/contact-banner.png" alt="Contact banner images">
             </div>
         </div>
     </section>
 
-    <section class="contact-section">
+
+    <section class="container">
+       <div class="contact-section">
         <div class="contact-header">
-          <h2>Feel free to contact us.<br>We’ll be glad to hear from you.</h2>
+            <h2>Feel free to contact us.<br>We’ll be glad to hear from you.</h2>
+        </div>
+          
+        <div class="contact-form-container">
+            <form class="contact-form">
+              <label for="name">Your name</label>
+              <input type="text" id="name" name="name" placeholder="" required>
+        
+              <label for="company">Company name</label>
+              <input type="text" id="company" name="company" placeholder="">
+        
+              <label for="email">Your email</label>
+              <input type="email" id="email" name="email" placeholder="" required>
+        
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="" required>
+        
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="" rows="5" required></textarea>
+        
+              <button type="submit">Send</button>
+            </form>
+        </div>
+       </div>
+    </section>
+
+    <section class="container d-flex justify-content-center">
+        <div class="question-section">
+            <div class="question-header">
+                <div class="question-text question-text-h1"><h1>Got question?</h1></div>
+                <div class="question-text question-text-p"><p>Contact one of department to solve your problem.</p></div>
+            </div>
+
+            <div class="question-cards">
+                <div class="question-card">
+                    <div class="icon">
+                      <img src="./img/contact-question-icon-1.png" alt="Support Icon">
+                    </div>
+                    <div class="card-tittle d-flex flex-wrap justify-content-center">
+                        <div class="card-tittle-h3"><h3>Support</h3></div>
+                        <div class="card-tittle-p"><p>We’re here to you any question about product</p></div>
+                    </div>
+                   
+                </div>
+                <div class="question-card">
+                    <div class="icon">
+                      <img src="./img/contact-question-icon-2.png" alt="Media Icon">
+                    </div>
+                    <div class="card-tittle d-flex flex-wrap justify-content-center">
+                        <div class="card-tittle-h3"><h3>Media</h3></div>
+                        <div class="card-tittle-p"><p>Get our news, company info and media resources.</p></div>
+                    </div>
+                </div>
+                <div class="question-card">
+                    <div class="icon">
+                      <img src="./img/contact-question-icon-3.png" alt="Payment Icon">
+                    </div>
+                    <div class="card-tittle d-flex flex-wrap justify-content-center">
+                        <div class="card-tittle-h3"><h3>Payment</h3></div>
+                        <div class="card-tittle-p"><p>We’re love to talk about how we can work together.</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+
+    <section class="worldwide-section container">
+        <div class="worldwide-content">
+          <div class="worldwide-image">
+            <img src="./img/contac-worldwide-bg.png" alt="Working remotely illustration">
+          </div>
+          <div class="worldwide-text">
+            <div class="worldwide-header">
+                <h2>We work worldwide.</h2>
+            </div>
+            <div class="locations">
+              <div class="location">
+                <h3>Bali</h3>
+                <p>508 Bridle Avenue<br>Newnan, GA<br>30263</p>
+              </div>
+              <div class="location">
+                <h3>London</h3>
+                <p>508 Bridle Avenue<br>Newnan, GA<br>30263</p>
+              </div>
+              <div class="location">
+                <h3>Moscow</h3>
+                <p>508 Bridle Avenue<br>Newnan, GA<br>30263</p>
+              </div>
+              <div class="location">
+                <h3>Paris</h3>
+                <p>508 Bridle Avenue<br>Newnan, GA<br>30263</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <section class="support-section container">
+        <div class="support-item">
+
+          <div class="support-icon">
+            <img src="./img/contact-support-icon.png" alt="Documentation Icon">
+          </div>
+
+          <div class="support-tittle support-tittle-h3"><h3>Documentation</h3></div>
+          <div class="support-tittle support-tittle-p"><p>Find documents related to products and your account.</p></div>
+
+          <a href="#" class="support-button">Find a tutorial <span>➔</span></a>
         </div>
         
-        <div class="contact-form-container">
-          <form class="contact-form">
-            <label for="name">Your name</label>
-            <input type="text" id="name" name="name" placeholder="Your name" required>
-      
-            <label for="company">Company name</label>
-            <input type="text" id="company" name="company" placeholder="Company name">
-      
-            <label for="email">Your email</label>
-            <input type="email" id="email" name="email" placeholder="Your email" required>
-      
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject" placeholder="Subject" required>
-      
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
-      
-            <button type="submit">Send</button>
-          </form>
-        </div>
+        <div class="support-item">
+
+            <div class="support-icon">
+              <img src="./img/contact-support-icon-1.png" alt="Documentation Icon">
+            </div>
+  
+            <div class="support-tittle support-tittle-h3"><h3>Support Desk</h3></div>
+            <div class="support-tittle support-tittle-p"><p>Contact our technical experts for customer support.</p></div>
+  
+            <a href="#" class="support-button">Create a ticket <span>➔</span></a>
+          </div>
       </section>
 
 
-      <footer>
+    <footer>
         <div class="container">
             <div class="footer-container">
                 <div class="footer-content">
