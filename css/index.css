@@ -111,6 +111,20 @@ header.scrolled {
 }
 
 /* Navigation styles */
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+.menu-toggle.active i {
+    content: '\f00d'; 
+    font-family: "Sen", sans-serif;
+ }
+
+
 .menu{
     justify-content: center;
     align-items: center;
@@ -1288,7 +1302,10 @@ footer {
   .payment-methods{
     width: 342.25px;
     height: 75px;
-    
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
   }
 
   .footer-left{
