@@ -178,6 +178,7 @@
         width: 100%;
         text-align: center;
         padding: 24px;
+        margin-bottom: 48px;
     }
     .action-text-h2{
         width: 100%;
@@ -188,6 +189,7 @@
         justify-content: center;
         width: 100%;
         text-align: center;
+        margin-top: 148px;
     }
     .action-image{
         width: 100%;
@@ -287,6 +289,7 @@
 
     .footer-container{
         width: 100%;
+        padding: 40px 20px;
     }
     .footer-content{
         display: block;
@@ -342,7 +345,10 @@
 
     .impact-tittle{
         padding: 24px;
-        margin-bottom: 24px;
+        margin-bottom: 48px;
+    }
+    .impact-text-h2{
+        margin-bottom: 84px;
     }
     
     .buttons{
@@ -397,10 +403,10 @@
         margin-bottom: 24px;
     }
     .victories-text-h2{
-        margin-bottom: 84px;
+        margin-bottom: 156px;
     }
     .victories-text-p{
-        margin-bottom: 24px;
+        margin-bottom: 36px;
     }
 
     .victory-stats{
@@ -412,6 +418,8 @@
         flex-wrap: wrap;
         display: flex;
         margin-bottom: 36px;
+        height: auto;
+        width: 100%;
     }
     .stat-box-h3,.stat-box-p{
         width: 100%;
@@ -451,7 +459,7 @@
     /* victory-highlight-section */
 
     .victory-highlight-section{
-        padding: 120px 20px;
+        padding: 120px 20px 0px 20px;
     }
     .victory-tittle{
         width: 100%;
@@ -472,16 +480,34 @@
         height: auto;
         margin-bottom: 36px;
     }
+    .highlight-card-text{
+        width: 100%;
+        height: auto;
+    }
     /* product-sections */
+    .product{
+        padding: 40px 20px;
+    }
+
+    .product-text-h1{
+        margin-bottom: 48px;
+    }
 
     .products{
         padding: 60px 20px;
         grid-template-columns: repeat(1, 1fr);
-        gap: 0px;
+        gap: 36px;
     }
     .products-card{
         width: 100%;
         height: auto;
+    }
+    .product-card-text{
+        width: 100%;
+        height: auto;
+    }
+    .product-header{
+        padding: 40px 20px;
     }
 
     /* footer */
