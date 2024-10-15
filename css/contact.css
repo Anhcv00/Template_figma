@@ -37,7 +37,21 @@ ul{
   list-style: none;
 }
 
+.d-flex{
+  display: flex;
+}
 
+.justify-content-center{
+  justify-content: center;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.align-items-center{
+  align-items: center;
+}
 
 
 /* Container for responsive width */
@@ -382,7 +396,7 @@ background-color: #22130C;
 
 .banner-details{
   padding-left: 155px;
-  width: 50%;
+  /* width: 50%; */
   background-color: #FFFCF7;
 }
 
@@ -395,6 +409,10 @@ background-color: #22130C;
 
   background-color: #F5EFE0;
 }
+.banner-tags{
+  margin-top: 109px;
+}
+
 .banner-img img{
   width: 667px;
   height: 488px;

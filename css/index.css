@@ -23,21 +23,36 @@ a{
     text-decoration: none;
 }
 
-.d-flex{
-    display: flex;
-}
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
     width: 100%;
 }
 
+.d-flex{
+    display: flex;
+  }
+
+.justify-content-center{
+    justify-content: center;
+  }
+  
+.flex-wrap{
+    flex-wrap: wrap;
+  }
+  
+.align-items-center{
+    align-items: center;
+}
+
+
 ul{
     list-style: none;
 }
 
-
+.wrapper > .container{
+    background-color: #FFFCF7;
+}
 
 
 /* Container for responsive width */
@@ -313,7 +328,7 @@ nav ul li a i {
 
 .petition {
     position: absolute;
-    top: 1215px;
+    top: 1170px;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
@@ -321,22 +336,16 @@ nav ul li a i {
 }
 
 .petition-container{
-    padding: 0!important;
+    padding: 0 !important;
 }
 .petition-show{
     display: flex;
 }
-.petition h2 {
-    font-size: 24px;
-    margin-bottom: 15px;
-}
 
-.petition p {
-    font-size: 16px;
-    margin-bottom: 20px;
-}
+
+
 .petition-content{
-    padding : 24px;
+    padding : 24px 20px 20px 27px;
 }
 .petition-content h2{
     font-size: 24px;
@@ -351,10 +360,35 @@ nav ul li a i {
     line-height: 22px;
     letter-spacing: 0.5px;
     color: #5F5F7580;
+    margin-bottom: 14px;
 }
 .petition-email i, .petition-address i{
     margin-right: 12px;
 }
+.petition-address{
+    margin-bottom: 9px;
+}
+
+.petition-h2{
+    width: 519px;
+    height: 58px;
+    margin-bottom: 16px;
+}
+.petition-h2 h2{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28.88px;
+    letter-spacing: -0.5px;
+    color: #2B2B39;
+
+}
+
+.petition-desc{
+    width: 521px;
+    height: 57px;
+    margin-bottom: 16px;
+}
+
 
 .petition-desc, .petition-address{
     font-size: 16px;
@@ -365,30 +399,61 @@ nav ul li a i {
 }
 
 .petition-details p {
-    width: 141px;
-    height: 33px;
     font-size: 14px;
+    font-weight: 800;
+    line-height: 16.84px;
+    letter-spacing: -0.5px;
     color: #5F5F75;
-    border-radius: 8px;
-    background-color: #F2EAE1;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+
 }   
 .petition-details p i{
     margin-right: 12px;
 }
 
 .petition-details{
+    justify-content: space-between;
     margin-top: 12px;
     display: flex;
     gap: 12px;
 }
-.petition-details p:hover{
+
+.petition-left{
+    text-align: center;
+    gap: 8px;
+}
+
+.petition-tag-sp{
+    width: 141px;
+    height: 33px;
+
+}
+
+.petition-tags{
+    border-radius: 8px;
+    background-color: #F2EAE1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+.petition-tag-cmt{
+    width: 133px;
+    height: 33px;
+}
+.petition-tag-children{
+    width: 142px;
+    height: 33px;
+}
+
+
+.petition-tags:hover{
     background-color: #6059C9;
-    color: #fff;
     cursor: pointer;
+}
+.petition-tags:hover p{
+    color: #FFFCF7;
 }
 
 .petition-thumbnails {
@@ -398,9 +463,20 @@ nav ul li a i {
     gap: 10px;
 }
 
+.petition-right{
+    width: 32px;
+    height: 32px;
+}
+.petition-right img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
 .petition-thumbnails img {
-    height: auto !important;
-    width: auto !important;
+
+    height: auto;
+    width: auto;
     object-fit: cover;
     border-radius: 5px;
 }
@@ -411,6 +487,7 @@ nav ul li a i {
     background-color: #F2EAE1;
     border-radius: 3px;
     overflow: hidden;
+    margin-bottom: 16px;
 }
 
 .progress {
@@ -423,7 +500,11 @@ nav ul li a i {
 /* feature */
 
 .features {
+  
     margin-top: 510px;  
+}
+.features > .container{
+    background-color: #FFFCF7;
 }
 .feature-header{
     text-align: center;
@@ -599,7 +680,7 @@ nav ul li a i {
 .details-tag-sp{
     width: 141px;
     height: 33px;
-    background-color: #6059C9;
+    /* background-color: #6059C9; */
     border-radius: 8px;
 }
 
@@ -977,22 +1058,29 @@ nav ul li a i {
     height: 96px;
 }
 
-.platform-card h2 {
-    margin-top: 24px;
+.platform-card-text-h2{
+    width: 273px;
+    height: 86px;
+    margin-bottom: 24px;
+}
+
+.platform-card-text-p{
+    width: 295px;
+    height: 98px;
+}
+
+.platform-card-text-h2 h2 {
     font-size: 36px;
     font-weight: 700;
     line-height: 43.31px;
     letter-spacing: -2px;
-    text-align: center;  
     color: #2B2B39;
 }
 
-.platform-card p {
-    margin-top: 24px;
+.platform-card-text-p p {
     font-size: 18px;
     font-weight: 400;
     line-height: 21.66px;
-    text-align: center;
     color: #5F5F75;
 
 }
@@ -1049,7 +1137,7 @@ nav ul li a i {
 
 
 .start-section {
-    padding: 120px 157px;
+    /* padding: 120px 157px; */
 }
 
 .start-header{
@@ -1150,7 +1238,6 @@ nav ul li a i {
 
 .start-footer{
     position: relative;
-
     margin: 73px 157px 50px 157px;
     display: flex;
     border-radius: 16px;
@@ -1356,3 +1443,264 @@ footer {
     background-color: #22130C;
   }
   
+
+  /* ________________________________________________________________ */
+
+  /* Responsive */
+
+  @media only screen and (max-width: 1440px) {
+
+    .petition-thumbnails{
+        align-items: center;
+        display: grid ;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+    .petition-thumbnails img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* feature - sections */
+
+    .features{
+        margin-top: 785px;
+    }
+
+    /* petition - sections  */
+
+    .petition{
+        top: 1330px;
+    }
+    .petition-show{
+        height: auto;
+    }
+    .petition-img{
+       
+    }
+
+    /* products sections */
+
+    .products{
+        padding: 120px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 48px;
+    }
+    .products-card{
+
+    }
+    .products-tittle{
+        width: 100%;
+    }
+    .product-card-text{
+        width: 100%;
+    }
+
+    /* .platform-cards */
+
+    .platform-cards{
+        padding: 60px 20px;
+        justify-content: center;
+        display: flex;
+    }
+
+    /* .start-section */
+    .start-section{
+        padding: 120px 0px;
+    }
+    .start-footer{
+        width: 100%;
+        margin: 0px;
+        padding: 40px 40px 0px 40px;
+    }
+    .start-cards{
+        padding-bottom: 160px;
+    }
+
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    /* .img-action-2 */
+    .img-action-2{
+        width: 50%;
+    }
+    .act-tittle{
+        margin-bottom: 120px;
+    }
+    .cta-buttons{ 
+        padding: 12px 48px;
+        display: block;
+    }
+    .cta-buttons button{
+       
+    }
+    .get-started{
+        margin-bottom: 24px;
+    }
+    .get-started, .learn-more{
+       width: 100%;
+    }
+    .call-to-action-bg{
+        padding-top: 0px;
+    }
+    
+    .img-action-2{
+        top: 0px;
+    }
+
+    /* petition */
+
+    .petition{
+        top: 1395px;
+    }
+    .petition-show{
+        display: block;
+    }
+    .petition-img img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .petition-details{
+        display: block;
+    }
+    .petition-left{
+        display: block;
+    }
+    .petition-tags{
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .petition-right{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .petition-thumbnails{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        padding: 24px;
+    }
+
+    /* features  */
+    .features {
+        margin-top: 940px;
+    }
+    
+    .feature-content{
+        width: 100%;
+        display: block;
+        margin-top: 60px;
+    }
+    .feature-left{
+        padding: 0px;
+        margin-bottom: 48px;
+    }
+    .feature{
+        width: 100%;
+        justify-content: center;
+    }
+    .feature-icon{
+        margin-right: 100px;
+    }
+    .feature-right{
+
+        display: flex;
+        justify-content: center;
+    }
+
+    /* products */
+    .products{
+        padding: 48px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .product-header{
+        margin-bottom: 24px;
+    }
+    .products-card{
+        width: 100%;
+    }
+
+    /* supporter */
+    .supporter > .container{
+        display: block;
+    }
+    .supporter-left{
+      padding: 148px 80px 150px 70px;
+    }
+    .supporter-img{
+
+    }
+
+    /* trusted-platform */
+    .trusted-platform{
+
+    }
+
+    .platform-text{
+        width: 100%;
+        height: auto;
+        margin-bottom: 24px;
+    }
+    .platform-cards{
+        padding: 40px 20px;
+        display: block;
+    }
+    .platform-card{
+        width: 100%;
+        height: auto;
+        margin-bottom: 24px;
+    }   
+    .platform-card-text{
+        width: 100%;
+        height: auto;
+    }
+
+    /* .count-details */
+
+    .count-details{
+        display: block;
+        padding: 0px;
+
+    }
+    .count-item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        padding: 24px 0px;
+    }
+
+    /* .start-cards */
+
+    .start-cards{
+        padding: 0 0 160px 0;
+
+    }
+    .start-card{
+        width: 100%;
+        height: auto;
+    }
+    .start-footer{
+        display: block;
+        position: static;
+
+    }
+    .start-right{
+        margin-top: 36px;
+        position: static;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer{
+        margin-top: 500px;
+    }
+
+  }
