@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400..800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e2eb016591.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/careers.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
     <header id="header">
@@ -19,12 +20,18 @@
                     <a href="./index.html">
                         <img src="./img/campoal-logo-impact 1.png" alt="Logo">
                     </a>
-                    <ul class="auth-buttons-hover">
+                    <ul class="logo-actions auth-buttons-hover">
                         <li><a href="#"><i class="fa-duotone fa-solid fa-globe"></i>Global</a></li>
                     </ul>
                 </div>
+                
+                <!-- Nút toggle menu -->
+                <button class="menu-toggle" aria-label="Toggle navigation">
+                    <i class="fa fa-light fa-bars"></i>
+                </button>
+    
                 <div class="menu d-flex">
-                    <nav>
+                    <nav class="nav-menu">
                         <ul>
                             <li><a href="#"><i class="fa-duotone fa-solid fa-magnifying-glass"></i>Search</a></li>
                             <li><a href="#features">Campaigns</a></li>
@@ -35,6 +42,7 @@
                             <li><a href="#">Blog</a></li>
                         </ul>
                     </nav>
+    
                     <div class="auth-buttons">
                         <button class="start-campaign auth-buttons-hover">
                             <i class="fa-duotone fa-solid fa-pen-to-square"></i> Start a campaign
@@ -50,6 +58,7 @@
             </div>
         </div>
     </header>
+    
     
 
     <section class="banner-section">
@@ -319,14 +328,18 @@
             <div class="footer-container">
                 <div class="footer-content">
                     <div class="footer-left">
-                        <h4>What is Campoal?</h4>
-                        <p>Campoal is a completed WordPress theme used to create Petition Platform, Foundation and Non-profit website where anyone can start a social movement, collect supporters and fundraising to change something in society.</p>
+                        <div class="footer-left-h4">
+                            <h4>What is Campoal?</h4>
+                        </div>
+                        <div class="footer-left-p">
+                            <p>Campoal is a completed WordPress theme used to create Petition Platform, Foundation and Non-profit website where anyone can start a social movement, collect supporters and fundraising to change something in society.</p>
+                        </div>
                         <div class="payment-methods">
-                          <!-- <img src="../img/footer-logo-1.png" alt="Payment Method 1">
-                          <img src="../img/footer-logo-2.png" alt="Payment Method 1">
-                          <img src="../img/footer-logo-3.png" alt="Payment Method 1">
-                          <img src="../img/footer-logo-4.png" alt="Payment Method 1"> -->
-                          <img src="./img/Secure badge.png" alt="">
+                            <img src="./img/footer-logo-1.png" alt="Payment Method 1">
+                            <img src="./img/footer-logo-2.png" alt="Payment Method 1">
+                            <img src="./img/footer-logo-3.png" alt="Payment Method 1">
+                            <img src="./img/footer-logo-4.png" alt="Payment Method 1">
+                          <!-- <img src="./img/Secure badge.png" alt=""> -->
                         </div>
                     </div>
                     <div class="footer-right">
@@ -368,7 +381,9 @@
                     </div>
                 </div>
                 <div class="footer-bottom">
-                    <p>© 2021 Campoal. Powered by Conikal LLC.</p>
+                    <div class="footer-bottom-p">
+                        <p>© 2021 Campoal. Powered by Conikal LLC.</p>
+                    </div>
                     <div class="social-icons">
                       <a href="#"><i class="fab fa-facebook-f"></i></a>
                       <a href="#"><i class="fab fa-twitter"></i></a>
