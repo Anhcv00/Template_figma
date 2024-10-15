@@ -13,298 +13,302 @@
     <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
-    <header id="header">
+    <div class="wrapper">
         <div class="container">
-            <div class="header">
-                <div class="logo">
-                    <a href="./index.html">
-                        <img src="./img/campoal-logo-impact 1.png" alt="Logo">
-                    </a>
-                    <ul class="logo-actions auth-buttons-hover">
-                        <li><a href="#"><i class="fa-duotone fa-solid fa-globe"></i>Global</a></li>
-                    </ul>
+            <header id="header">
+                <div class="container">
+                    <div class="header">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img src="./img/campoal-logo-impact 1.png" alt="Logo">
+                            </a>
+                            <ul class="logo-actions auth-buttons-hover">
+                                <li><a href="#"><i class="fa-duotone fa-solid fa-globe"></i>Global</a></li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Nút toggle menu -->
+                        <button class="menu-toggle" aria-label="Toggle navigation">
+                            <i class="fa fa-light fa-bars"></i>
+                        </button>
+            
+                        <div class="menu d-flex">
+                            <nav class="nav-menu">
+                                <ul>
+                                    <li><a href="#"><i class="fa-duotone fa-solid fa-magnifying-glass"></i>Search</a></li>
+                                    <li><a href="#features">Campaigns</a></li>
+                                    <li><a href="#platform">Fundraiser</a></li>
+                                    <li><a href="#product">Membership</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                </ul>
+                            </nav>
+            
+                            <div class="auth-buttons">
+                                <button class="start-campaign auth-buttons-hover">
+                                    <i class="fa-duotone fa-solid fa-pen-to-square"></i> Start a campaign
+                                </button>
+                                <button class="sign-up auth-buttons-hover">
+                                    <a href="./create.html">Sign up</a>
+                                </button>
+                                <button class="sign-in auth-buttons-hover">
+                                    <a href="./login.html">Sign in</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            
+            <section class="banner-section">
+                <div class="container">
+                    <div class="banner-content d-flex">
+                        <div class="banner-details">
+                            <div class="banner-text">
+                                <h2>Hola, What’s up?</h2>
+                                <p>Conikal build the Powerful Platform base on WordPress with latest technology. We offers the fastest way for Webmaster start their Platforms.</p>
+                            </div>
+                            <div class="banner-tags">
+                                <div class="banner-items">
+                                    <div class="items-icon">
+                                        <img src="./img/contact-bn-i-2.png" alt="contact item 1">
+                                    </div>
+                                    <div class="items-text">
+                                        <h4>Address</h4>
+                                        <p>17224 S. Figueroa Street, Gardena, CA 90248, USA</p>
+                                    </div>
+                                </div>
+                                <div class="banner-items">
+                                    <div class="items-icon">
+                                        <img src="./img/contact-bn-i-2.png" alt="contact item 1">
+                                    </div>
+                                    <div class="items-text">
+                                        <h4>Email</h4>
+                                        <p>contact@conikal.com</p>
+                                    </div>
+                                </div>
+                                <div class="banner-items">
+                                    <div class="items-icon">
+                                        <img src="./img/contact-bn-i-1.png" alt="contact item 1">
+                                    </div>
+                                    <div class="items-text">
+                                        <h4>Phone numbers</h4>
+                                        <p>+1 415 800-3128</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner-img">
+                            <img src="./img/contact-banner.png" alt="Contact banner images">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section class="container">
+               <div class="contact-section">
+                <div class="contact-header">
+                    <h2>Feel free to contact us.<br>We’ll be glad to hear from you.</h2>
+                </div>
+                  
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                      <label for="name">Your name</label>
+                      <input type="text" id="name" name="name" placeholder="" required>
+                
+                      <label for="company">Company name</label>
+                      <input type="text" id="company" name="company" placeholder="">
+                
+                      <label for="email">Your email</label>
+                      <input type="email" id="email" name="email" placeholder="" required>
+                
+                      <label for="subject">Subject</label>
+                      <input type="text" id="subject" name="subject" placeholder="" required>
+                
+                      <label for="message">Message</label>
+                      <textarea id="message" name="message" placeholder="" rows="5" required></textarea>
+                
+                      <button type="submit">Send</button>
+                    </form>
+                </div>
+               </div>
+            </section>
+        
+            <section class="container d-flex justify-content-center">
+                <div class="question-section">
+                    <div class="question-header">
+                        <div class="question-text question-text-h1"><h1>Got question?</h1></div>
+                        <div class="question-text question-text-p"><p>Contact one of department to solve your problem.</p></div>
+                    </div>
+        
+                    <div class="question-cards">
+                        <div class="question-card">
+                            <div class="icon">
+                              <img src="./img/contact-question-icon-1.png" alt="Support Icon">
+                            </div>
+                            <div class="card-tittle d-flex flex-wrap justify-content-center">
+                                <div class="card-tittle-h3"><h3>Support</h3></div>
+                                <div class="card-tittle-p"><p>We’re here to you any question about product</p></div>
+                            </div>
+                           
+                        </div>
+                        <div class="question-card">
+                            <div class="icon">
+                              <img src="./img/contact-question-icon-2.png" alt="Media Icon">
+                            </div>
+                            <div class="card-tittle d-flex flex-wrap justify-content-center">
+                                <div class="card-tittle-h3"><h3>Media</h3></div>
+                                <div class="card-tittle-p"><p>Get our news, company info and media resources.</p></div>
+                            </div>
+                        </div>
+                        <div class="question-card">
+                            <div class="icon">
+                              <img src="./img/contact-question-icon-3.png" alt="Payment Icon">
+                            </div>
+                            <div class="card-tittle d-flex flex-wrap justify-content-center">
+                                <div class="card-tittle-h3"><h3>Payment</h3></div>
+                                <div class="card-tittle-p"><p>We’re love to talk about how we can work together.</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </section>
+        
+        
+            <section class="worldwide-section container">
+                <div class="worldwide-content">
+                  <div class="worldwide-image">
+                    <img src="./img/contac-worldwide-bg.png" alt="Working remotely illustration">
+                  </div>
+                  <div class="worldwide-text">
+                    <div class="worldwide-header">
+                        <h2>We work worldwide.</h2>
+                    </div>
+                    <div class="locations">
+                      <div class="location">
+                        <h3>Bali</h3>
+                        <p>508 Bridle Avenue<br>Newnan, GA<br>30263</p>
+                      </div>
+                      <div class="location">
+                        <h3>London</h3>
+                        <p>508 Bridle Avenue<br>Newnan, GA<br>30263</p>
+                      </div>
+                      <div class="location">
+                        <h3>Moscow</h3>
+                        <p>508 Bridle Avenue<br>Newnan, GA<br>30263</p>
+                      </div>
+                      <div class="location">
+                        <h3>Paris</h3>
+                        <p>508 Bridle Avenue<br>Newnan, GA<br>30263</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+        
+            <section class="support-section container">
+                <div class="support-item">
+        
+                  <div class="support-icon">
+                    <img src="./img/contact-support-icon.png" alt="Documentation Icon">
+                  </div>
+        
+                  <div class="support-tittle support-tittle-h3"><h3>Documentation</h3></div>
+                  <div class="support-tittle support-tittle-p"><p>Find documents related to products and your account.</p></div>
+        
+                  <a href="#" class="support-button">Find a tutorial <span>➔</span></a>
                 </div>
                 
-                <!-- Nút toggle menu -->
-                <button class="menu-toggle" aria-label="Toggle navigation">
-                    <i class="fa fa-light fa-bars"></i>
-                </button>
-    
-                <div class="menu d-flex">
-                    <nav class="nav-menu">
-                        <ul>
-                            <li><a href="#"><i class="fa-duotone fa-solid fa-magnifying-glass"></i>Search</a></li>
-                            <li><a href="#features">Campaigns</a></li>
-                            <li><a href="#platform">Fundraiser</a></li>
-                            <li><a href="#product">Membership</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="#">Blog</a></li>
-                        </ul>
-                    </nav>
-    
-                    <div class="auth-buttons">
-                        <button class="start-campaign auth-buttons-hover">
-                            <i class="fa-duotone fa-solid fa-pen-to-square"></i> Start a campaign
-                        </button>
-                        <button class="sign-up auth-buttons-hover">
-                            <a href="./create.html">Sign up</a>
-                        </button>
-                        <button class="sign-in auth-buttons-hover">
-                            <a href="./login.html">Sign in</a>
-                        </button>
+                <div class="support-item">
+        
+                    <div class="support-icon">
+                      <img src="./img/contact-support-icon-1.png" alt="Documentation Icon">
                     </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    
-    <section class="banner-section">
-        <div class="container">
-            <div class="banner-content d-flex">
-                <div class="banner-details">
-                    <div class="banner-text">
-                        <h2>Hola, What’s up?</h2>
-                        <p>Conikal build the Powerful Platform base on WordPress with latest technology. We offers the fastest way for Webmaster start their Platforms.</p>
-                    </div>
-                    <div class="banner-tags">
-                        <div class="banner-items">
-                            <div class="items-icon">
-                                <img src="./img/contact-bn-i-2.png" alt="contact item 1">
-                            </div>
-                            <div class="items-text">
-                                <h4>Address</h4>
-                                <p>17224 S. Figueroa Street, Gardena, CA 90248, USA</p>
-                            </div>
-                        </div>
-                        <div class="banner-items">
-                            <div class="items-icon">
-                                <img src="./img/contact-bn-i-2.png" alt="contact item 1">
-                            </div>
-                            <div class="items-text">
-                                <h4>Email</h4>
-                                <p>contact@conikal.com</p>
-                            </div>
-                        </div>
-                        <div class="banner-items">
-                            <div class="items-icon">
-                                <img src="./img/contact-bn-i-1.png" alt="contact item 1">
-                            </div>
-                            <div class="items-text">
-                                <h4>Phone numbers</h4>
-                                <p>+1 415 800-3128</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="banner-img">
-                    <img src="./img/contact-banner.png" alt="Contact banner images">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="container">
-       <div class="contact-section">
-        <div class="contact-header">
-            <h2>Feel free to contact us.<br>We’ll be glad to hear from you.</h2>
-        </div>
           
-        <div class="contact-form-container">
-            <form class="contact-form">
-              <label for="name">Your name</label>
-              <input type="text" id="name" name="name" placeholder="" required>
+                    <div class="support-tittle support-tittle-h3"><h3>Support Desk</h3></div>
+                    <div class="support-tittle support-tittle-p"><p>Contact our technical experts for customer support.</p></div>
+          
+                    <a href="#" class="support-button">Create a ticket <span>➔</span></a>
+                  </div>
+            </section>
         
-              <label for="company">Company name</label>
-              <input type="text" id="company" name="company" placeholder="">
         
-              <label for="email">Your email</label>
-              <input type="email" id="email" name="email" placeholder="" required>
-        
-              <label for="subject">Subject</label>
-              <input type="text" id="subject" name="subject" placeholder="" required>
-        
-              <label for="message">Message</label>
-              <textarea id="message" name="message" placeholder="" rows="5" required></textarea>
-        
-              <button type="submit">Send</button>
-            </form>
-        </div>
-       </div>
-    </section>
-
-    <section class="container d-flex justify-content-center">
-        <div class="question-section">
-            <div class="question-header">
-                <div class="question-text question-text-h1"><h1>Got question?</h1></div>
-                <div class="question-text question-text-p"><p>Contact one of department to solve your problem.</p></div>
-            </div>
-
-            <div class="question-cards">
-                <div class="question-card">
-                    <div class="icon">
-                      <img src="./img/contact-question-icon-1.png" alt="Support Icon">
-                    </div>
-                    <div class="card-tittle d-flex flex-wrap justify-content-center">
-                        <div class="card-tittle-h3"><h3>Support</h3></div>
-                        <div class="card-tittle-p"><p>We’re here to you any question about product</p></div>
-                    </div>
-                   
-                </div>
-                <div class="question-card">
-                    <div class="icon">
-                      <img src="./img/contact-question-icon-2.png" alt="Media Icon">
-                    </div>
-                    <div class="card-tittle d-flex flex-wrap justify-content-center">
-                        <div class="card-tittle-h3"><h3>Media</h3></div>
-                        <div class="card-tittle-p"><p>Get our news, company info and media resources.</p></div>
-                    </div>
-                </div>
-                <div class="question-card">
-                    <div class="icon">
-                      <img src="./img/contact-question-icon-3.png" alt="Payment Icon">
-                    </div>
-                    <div class="card-tittle d-flex flex-wrap justify-content-center">
-                        <div class="card-tittle-h3"><h3>Payment</h3></div>
-                        <div class="card-tittle-p"><p>We’re love to talk about how we can work together.</p></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-    </section>
-
-
-    <section class="worldwide-section container">
-        <div class="worldwide-content">
-          <div class="worldwide-image">
-            <img src="./img/contac-worldwide-bg.png" alt="Working remotely illustration">
-          </div>
-          <div class="worldwide-text">
-            <div class="worldwide-header">
-                <h2>We work worldwide.</h2>
-            </div>
-            <div class="locations">
-              <div class="location">
-                <h3>Bali</h3>
-                <p>508 Bridle Avenue<br>Newnan, GA<br>30263</p>
-              </div>
-              <div class="location">
-                <h3>London</h3>
-                <p>508 Bridle Avenue<br>Newnan, GA<br>30263</p>
-              </div>
-              <div class="location">
-                <h3>Moscow</h3>
-                <p>508 Bridle Avenue<br>Newnan, GA<br>30263</p>
-              </div>
-              <div class="location">
-                <h3>Paris</h3>
-                <p>508 Bridle Avenue<br>Newnan, GA<br>30263</p>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <section class="support-section container">
-        <div class="support-item">
-
-          <div class="support-icon">
-            <img src="./img/contact-support-icon.png" alt="Documentation Icon">
-          </div>
-
-          <div class="support-tittle support-tittle-h3"><h3>Documentation</h3></div>
-          <div class="support-tittle support-tittle-p"><p>Find documents related to products and your account.</p></div>
-
-          <a href="#" class="support-button">Find a tutorial <span>➔</span></a>
-        </div>
-        
-        <div class="support-item">
-
-            <div class="support-icon">
-              <img src="./img/contact-support-icon-1.png" alt="Documentation Icon">
-            </div>
-  
-            <div class="support-tittle support-tittle-h3"><h3>Support Desk</h3></div>
-            <div class="support-tittle support-tittle-p"><p>Contact our technical experts for customer support.</p></div>
-  
-            <a href="#" class="support-button">Create a ticket <span>➔</span></a>
-          </div>
-    </section>
-
-
-    <footer>
-        <div class="container">
-            <div class="footer-container">
-                <div class="footer-content">
-                    <div class="footer-left">
-                        <div class="footer-left-h4">
-                            <h4>What is Campoal?</h4>
+            <footer>
+                <div class="container">
+                    <div class="footer-container">
+                        <div class="footer-content">
+                            <div class="footer-left">
+                                <div class="footer-left-h4">
+                                    <h4>What is Campoal?</h4>
+                                </div>
+                                <div class="footer-left-p">
+                                    <p>Campoal is a completed WordPress theme used to create Petition Platform, Foundation and Non-profit website where anyone can start a social movement, collect supporters and fundraising to change something in society.</p>
+                                </div>
+                                <div class="payment-methods">
+                                    <img src="./img/footer-logo-1.png" alt="Payment Method 1">
+                                    <img src="./img/footer-logo-2.png" alt="Payment Method 1">
+                                    <img src="./img/footer-logo-3.png" alt="Payment Method 1">
+                                    <img src="./img/footer-logo-4.png" alt="Payment Method 1">
+                                  <!-- <img src="./img/Secure badge.png" alt=""> -->
+                                </div>
+                            </div>
+                            <div class="footer-right">
+                                <div class="footer-section">
+                                    <h4>Company</h4>
+                                    <ul>
+                                      <li><a href="#">About</a></li>
+                                      <li><a href="#">Contact</a></li>
+                                      <li><a href="#">Careers</a></li>
+                                      <li><a href="#">Impact</a></li>
+                                      <li><a href="#">Testimonials</a></li>
+                                      <li><a href="#">Team members</a></li>
+                                    </ul>
+                                  </div>
+                              
+                                  <div class="footer-section">
+                                    <h4>Resource</h4>
+                                    <ul>
+                                      <li><a href="#">Guide</a></li>
+                                      <li><a href="#">FAQs</a></li>
+                                      <li><a href="#">Press kits</a></li>
+                                      <li><a href="#">Compliance</a></li>
+                                      <li><a href="#">Privacy Policy</a></li>
+                                      <li><a href="#">Terms of service</a></li>
+                                    </ul>
+                                  </div>
+                              
+                                  <div class="footer-section">
+                                    <h4>Community</h4>
+                                    <ul>
+                                      <li><a href="#">Shop</a></li>
+                                      <li><a href="#">Blog</a></li>
+                                      <li><a href="#">Forum</a></li>
+                                      <li><a href="#">Membership</a></li>
+                                      <li><a href="#">Help center</a></li>
+                                      <li><a href="#">Support desk</a></li>
+                                    </ul>
+                                  </div>
+                            </div>
                         </div>
-                        <div class="footer-left-p">
-                            <p>Campoal is a completed WordPress theme used to create Petition Platform, Foundation and Non-profit website where anyone can start a social movement, collect supporters and fundraising to change something in society.</p>
+                        <div class="footer-bottom">
+                            <div class="footer-bottom-p">
+                                <p>© 2021 Campoal. Powered by Conikal LLC.</p>
+                            </div>
+                            <div class="social-icons">
+                              <a href="#"><i class="fab fa-facebook-f"></i></a>
+                              <a href="#"><i class="fab fa-twitter"></i></a>
+                              <a href="#"><i class="fab fa-youtube"></i></a>
+                              <a href="#"><i class="fab fa-medium-m"></i></a>
+                            </div>
                         </div>
-                        <div class="payment-methods">
-                            <img src="./img/footer-logo-1.png" alt="Payment Method 1">
-                            <img src="./img/footer-logo-2.png" alt="Payment Method 1">
-                            <img src="./img/footer-logo-3.png" alt="Payment Method 1">
-                            <img src="./img/footer-logo-4.png" alt="Payment Method 1">
-                          <!-- <img src="./img/Secure badge.png" alt=""> -->
-                        </div>
-                    </div>
-                    <div class="footer-right">
-                        <div class="footer-section">
-                            <h4>Company</h4>
-                            <ul>
-                              <li><a href="#">About</a></li>
-                              <li><a href="#">Contact</a></li>
-                              <li><a href="#">Careers</a></li>
-                              <li><a href="#">Impact</a></li>
-                              <li><a href="#">Testimonials</a></li>
-                              <li><a href="#">Team members</a></li>
-                            </ul>
-                          </div>
-                      
-                          <div class="footer-section">
-                            <h4>Resource</h4>
-                            <ul>
-                              <li><a href="#">Guide</a></li>
-                              <li><a href="#">FAQs</a></li>
-                              <li><a href="#">Press kits</a></li>
-                              <li><a href="#">Compliance</a></li>
-                              <li><a href="#">Privacy Policy</a></li>
-                              <li><a href="#">Terms of service</a></li>
-                            </ul>
-                          </div>
-                      
-                          <div class="footer-section">
-                            <h4>Community</h4>
-                            <ul>
-                              <li><a href="#">Shop</a></li>
-                              <li><a href="#">Blog</a></li>
-                              <li><a href="#">Forum</a></li>
-                              <li><a href="#">Membership</a></li>
-                              <li><a href="#">Help center</a></li>
-                              <li><a href="#">Support desk</a></li>
-                            </ul>
-                          </div>
-                    </div>
+                    </div> 
+                    
                 </div>
-                <div class="footer-bottom">
-                    <div class="footer-bottom-p">
-                        <p>© 2021 Campoal. Powered by Conikal LLC.</p>
-                    </div>
-                    <div class="social-icons">
-                      <a href="#"><i class="fab fa-facebook-f"></i></a>
-                      <a href="#"><i class="fab fa-twitter"></i></a>
-                      <a href="#"><i class="fab fa-youtube"></i></a>
-                      <a href="#"><i class="fab fa-medium-m"></i></a>
-                    </div>
-                </div>
-            </div> 
-            
+            </footer>
         </div>
-    </footer>
+    </div>
 
     <script src="./js/index.js"></script>
 </body>
