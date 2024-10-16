@@ -13,388 +13,459 @@
     <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
-    <header id="header">
+    <div class="wrapper">
         <div class="container">
-            <div class="header">
-                <div class="logo">
-                    <a href="./index.html">
-                        <img src="./img/campoal-logo-impact 1.png" alt="Logo">
-                    </a>
-                    <ul class="logo-actions auth-buttons-hover">
-                        <li><a href="#"><i class="fa-duotone fa-solid fa-globe"></i>Global</a></li>
-                    </ul>
+            <header id="header">
+                <div class="container">
+                    <div class="header">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img src="./img/campoal-logo-impact 1.png" alt="Logo">
+                            </a>
+                            <ul class="logo-actions auth-buttons-hover">
+                                <li><a href="#"><i class="fa-duotone fa-solid fa-globe"></i>Global</a></li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Nút toggle menu -->
+                        <button class="menu-toggle" aria-label="Toggle navigation">
+                            <i class="fa fa-light fa-bars"></i>
+                        </button>
+            
+                        <div class="menu d-flex">
+                            <nav class="nav-menu">
+                                <ul>
+                                    <li><a href="#"><i class="fa-duotone fa-solid fa-magnifying-glass"></i>Search</a></li>
+                                    <li><a href="#features">Campaigns</a></li>
+                                    <li><a href="#platform">Fundraiser</a></li>
+                                    <li><a href="#product">Membership</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                </ul>
+                            </nav>
+            
+                            <div class="auth-buttons">
+                                <button class="start-campaign auth-buttons-hover">
+                                    <i class="fa-duotone fa-solid fa-pen-to-square"></i> Start a campaign
+                                </button>
+                                <button class="sign-up auth-buttons-hover">
+                                    <a href="./create.html">Sign up</a>
+                                </button>
+                                <button class="sign-in auth-buttons-hover">
+                                    <a href="./login.html">Sign in</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            
+            
+        
+            <section class="banner-section">
+                <div class="banner-container">
+                    <div class="banner-tittle">
+                        <h1>We do things differently</h1>
+                        <p>Learn more about the company, the team behind it and how we think.</p>
+                    </div>
+                    <div class="banner-content">
+                        <div class="banner-img">
+                            <img src="./img/careers-banner-bg.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+        
+            <section class="benefits-section">
+                <div class="container d-flex flex-wrap justify-content-center">
+                    <div class="benefit-tittle">
+                        <div class="benefit-tittle-text benefit-tittle-text-h2"><h2>Benefits</h2></div>
+                        <div class="benefit-tittle-text benefit-tittle-text-p"><p>In addition to a competitive salary, here're a few resources we offer to help our team excel.</p></div>
+                        
+                    </div>
+                    <div class="benefits-grid">
+                        <div class="benefit-item">
+                            <div class="benefit-img">
+                                <img src="./img/benefit-item-1.png" alt="Health Insurance Icon">
+                            </div>
+                            <div class="benefit-item-text benefit-item-text-h3"><h3>Health insurance</h3></div>
+                            <div class="benefit-item-text benefit-item-text-p"><p>Our comprehensive medical insurance covers a wide variety of needs.</p></div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-img">
+                                <img src="./img/benefit-item-2.png" alt="Health Insurance Icon">
+                            </div>
+                            <div class="benefit-item-text benefit-item-text-h3"><h3>Health insurance</h3></div>
+                            <div class="benefit-item-text benefit-item-text-p"><p>Our comprehensive medical insurance covers a wide variety of needs.</p></div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-img">
+                                <img src="./img/benefit-item-3.png" alt="Health Insurance Icon">
+                            </div>
+                            <div class="benefit-item-text benefit-item-text-h3"><h3>Health insurance</h3></div>
+                            <div class="benefit-item-text benefit-item-text-p"><p>Our comprehensive medical insurance covers a wide variety of needs.</p></div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-img">
+                                <img src="./img/benefit-item-4.png" alt="Health Insurance Icon">
+                            </div>
+                            <div class="benefit-item-text benefit-item-text-h3"><h3>Health insurance</h3></div>
+                            <div class="benefit-item-text benefit-item-text-p"><p>Our comprehensive medical insurance covers a wide variety of needs.</p></div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-img">
+                                <img src="./img/benefit-item-5.png" alt="Health Insurance Icon">
+                            </div>
+                            <div class="benefit-item-text benefit-item-text-h3"><h3>Health insurance</h3></div>
+                            <div class="benefit-item-text benefit-item-text-p"><p>Our comprehensive medical insurance covers a wide variety of needs.</p></div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-img">
+                                <img src="./img/benefit-item-6.png" alt="Health Insurance Icon">
+                            </div>
+                            <div class="benefit-item-text benefit-item-text-h3"><h3>Health insurance</h3></div>
+                            <div class="benefit-item-text benefit-item-text-p"><p>Our comprehensive medical insurance covers a wide variety of needs.</p></div>
+                        </div>
+        
+                    </div>
                 </div>
                 
-                <!-- Nút toggle menu -->
-                <button class="menu-toggle" aria-label="Toggle navigation">
-                    <i class="fa fa-light fa-bars"></i>
-                </button>
-    
-                <div class="menu d-flex">
-                    <nav class="nav-menu">
-                        <ul>
-                            <li><a href="#"><i class="fa-duotone fa-solid fa-magnifying-glass"></i>Search</a></li>
-                            <li><a href="#features">Campaigns</a></li>
-                            <li><a href="#platform">Fundraiser</a></li>
-                            <li><a href="#product">Membership</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="#">Blog</a></li>
-                        </ul>
-                    </nav>
-    
-                    <div class="auth-buttons">
-                        <button class="start-campaign auth-buttons-hover">
-                            <i class="fa-duotone fa-solid fa-pen-to-square"></i> Start a campaign
-                        </button>
-                        <button class="sign-up auth-buttons-hover">
-                            <a href="./create.html">Sign up</a>
-                        </button>
-                        <button class="sign-in auth-buttons-hover">
-                            <a href="./login.html">Sign in</a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    
-    
-
-    <section class="banner-section">
-        <div class="banner-container">
-            <div class="banner-tittle">
-                <h1>We do things differently</h1>
-                <p>Learn more about the company, the team behind it and how we think.</p>
-            </div>
-            <div class="banner-content">
-                <div class="banner-img">
-                    <img src="./img/contact-banner.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="benefits-section">
-        <div class="benefit-container">
-            <div class="benefit-tittle">
-                <h2>Benefits</h2>
-                <p>In addition to a competitive salary, here're a few resources we offer to help our team excel.</p>
-            </div>
-            <div class="benefits-grid">
-                <div class="benefit-item">
-                    <div class="benefit-img">
-                        <img src="./img/benefit-item-1.png" alt="Health Insurance Icon">
-                    </div>
-                    <h3>Health insurance</h3>
-                    <p>Our comprehensive medical insurance covers a wide variety of needs.</p>
-                </div>
-                <div class="benefit-item">
-                    <div class="benefit-img">
-                        <img src="./img/benefit-item-2.png" alt="Health Insurance Icon">
-                    </div>
-                    <h3>New Macbook Pro</h3>
-                    <p>Receive a brand new MacBook Pro work laptop on their first day</p>
-                </div>
-                <div class="benefit-item">
-                    <div class="benefit-img">
-                        <img src="./img/benefit-item-3.png" alt="Health Insurance Icon">
-                    </div>
-                    <h3>Kind colleagues</h3>
-                    <p>Learn and grow with highly accomplished colleagues</p>
-                </div>
-                <div class="benefit-item">
-                    <div class="benefit-img">
-                        <img src="./img/benefit-item-4.png" alt="Health Insurance Icon">
-                    </div>
-                    <h3>Professional Development</h3>
-                    <p>We invest in our people to ensure they can achieve their professional goals</p>
-                </div>
-                <div class="benefit-item">
-                    <div class="benefit-img">
-                        <img src="./img/benefit-item-5.png" alt="Health Insurance Icon">
-                    </div>
-                    <h3>Life Insurance</h3>
-                    <p>We provide comprehensive life cover for all team members</p>
-                </div>
-                <div class="benefit-item">
-                    <div class="benefit-img">
-                        <img src="./img/benefit-item-6.png" alt="Health Insurance Icon">
-                    </div>
-                    <h3>Paid annual leave</h3>
-                    <p>20 days of paid annual leave, and are warmly encouraged to use them</p>
-                </div>
-
-            </div>
-        </div>
+            </section>
         
-    </section>
-
-    <section class="recurring-section">
-        <div class="recurring-container">
-                <div class="recurring-image">
-                  <img src="./img/recurring.png" alt="Illustration">
-                </div>
-                <div class="recurring-text">
-                  <h2>Recurring themes in the work we do</h2>
-                  <p>
-                    Campoal is a mission-driven company, which means that we find ourselves returning to a similar set of questions in everything we do. If you already find yourself thinking about a few of the following questions, chances are high that you’ll love your work at Campoal.
-                  </p>
-                  <ul>  
-                    <li><span class="checkbox-icon"><i class="fa-solid fa-check"></i></span> How do we make it absurdly easy to start</li>
-                    <li><span class="checkbox-icon"><i class="fa-solid fa-check"></i></span> How do we dramatically increase the volume</li>
-                    <li><span class="checkbox-icon"><i class="fa-solid fa-check"></i></span> What business models can technology make possible</li>
-                  </ul>
-                </div>
-        </div>
-    </section>
-
-
-    <section class="values-section">
-        <div class="values-container">
-            <div class="values-tittle">
-                <h2>Our values</h2>
-                <p>We're a deeply mission-driven company, and these are the core ideas we return to when we make decisions.</p>
-            </div>
-            <div class="values-grid">
-                <div class="value-item">
-                    <img src="./img/career-values-1.png" alt="Choose Transparency Icon">
-                    <div class="value-text">
-                        <h3>Choose Transparency</h3>
-                        <p>Share your work often. Openly seek critique. Have the difficult, honest conversation as soon as possible. Get it off your chest.</p>
-                    </div>
-                </div>
-                <div class="value-item">
-                    <div class="value-img">
-                        <img src="./img/career-values-1.png" alt="Choose Transparency Icon">
-                    </div>
-                    <div class="value-text">
-                        <h3>Choose Transparency</h3>
-                        <p>Share your work often. Openly seek critique. Have the difficult, honest conversation as soon as possible. Get it off your chest.</p>
-                    </div>
-                </div>
-                <div class="value-item">
-                    <div class="value-img">
-                        <img src="./img/career-values-3.png" alt="Choose Transparency Icon">
-                    </div>
-                    <div class="value-text">
-                        <h3>Choose Transparency</h3>
-                        <p>Share your work often. Openly seek critique. Have the difficult, honest conversation as soon as possible. Get it off your chest.</p>
-                    </div>
-                </div>
-                <div class="value-item">
-                    <div class="value-img">
-                        <img src="./img/career-values-4.png" alt="Choose Transparency Icon">
-                    </div>
-                    <div class="value-text">
-                        <h3>Choose Transparency</h3>
-                        <p>Share your work often. Openly seek critique. Have the difficult, honest conversation as soon as possible. Get it off your chest.</p>
-                    </div>
-                </div>
-                <div class="value-item">
-                    <div class="value-img">
-                        <img src="./img/career-values-5.png" alt="Choose Transparency Icon">
-                    </div>
-                    <div class="value-text">
-                        <h3>Choose Transparency</h3>
-                        <p>Share your work often. Openly seek critique. Have the difficult, honest conversation as soon as possible. Get it off your chest.</p>
-                    </div>
-                </div>
-                <div class="value-item">
-                    <div class="value-img">
-                        <img src="./img/career-values-6.png" alt="Choose Transparency Icon">
-                    </div>
-                    <div class="value-text">
-                        <h3>Choose Transparency</h3>
-                        <p>Share your work often. Openly seek critique. Have the difficult, honest conversation as soon as possible. Get it off your chest.</p>
-                    </div>
-                </div>
-    
-            </div>
-        </div>
-    </section>
-
-
-    <section class="recruitment-section">
-        <div class="recruitment-container">
-            <div class="recruitment-tittle">
-                <h2>We're looking for talented people</h2>
-                <p>We're building simple, powerful tools to connect the people's voices all over the world — and we'd love your help!</p>
-            </div>
-            <div class="recruitment-image">
-                <img src="./img/careers-requirement.png" alt="Team working">
-            </div>
-        </div>
-    </section>
-
-
-    <section class="positions-section">
-        <div class="position-controller">
-            <div class="position-tittle">
-                <h2>Open Positions</h2>
-                <p>Come join the team!</p>
-            </div>
-            <div class="job-listing">
-                <div class="job-item">
-                <div class="job-details">
-                  <h3>Product Manager, South Africa Expansion</h3>
-                  <p>As the Product Manager for our South African expansion efforts, you’ll be responsible for driving product innovation in South Africa that’ll be targeted and helping out merchants start and scale their businesses. You’ll be the voice of the customer and will help build and maintain delightfully successful products that solve our users’ pain points.</p>
-                  <div class="job-tags">
-                    <span>Product</span>
-                    <span>Full-time</span>
-                    <span>South Africa</span>
-                  </div>
-                </div>
-                <div class="job-action">
-                  <a href="#" class="apply-button">Apply Now</a>
-                  <p>Ongoing</p>
-                </div>
-                </div>
-          
-                <div class="job-item">
-                <div class="job-details">
-                  <h3>Head of Compliance and Risk</h3>
-                  <p>As the Product Manager for our South African expansion efforts, you’ll be responsible for driving product innovation in South Africa that’ll be targeted and helping out merchants start and scale their businesses. You’ll be the voice of the customer and will help build and maintain delightfully successful products that solve our users’ pain points.</p>
-                  <div class="job-tags">
-                    <span>Product</span>
-                    <span>Full-time</span>
-                    <span>South Africa</span>
-                  </div>
-                </div>
-                <div class="job-action">
-                  <a href="#" class="apply-button">Apply Now</a>
-                  <p>Ongoing</p>
-                </div>
-                </div>
-
-                <div class="job-item">
-                    <div class="job-details">
-                      <h3>Senior Automation Engineer</h3>
-                      <p>As the Product Manager for our South African expansion efforts, you’ll be responsible for driving product innovation in South Africa that'll be targeted and helping out merchants start and scale their businesses. You’ll be the voice of the customer and will help build and maintain delightfully successful products that solve our users' pain points.</p>
-                      <div class="job-tags">
-                        <span>Product</span>
-                        <span>Full-time</span>
-                        <span>South Africa</span>
-                      </div>
-                    </div>
-                    <div class="job-action">
-                      <a href="#" class="apply-button">Apply Now</a>
-                      <p>Ongoing</p>
-                    </div>
-                </div>
-
-                <div class="job-item">
-                        <div class="job-details">
-                          <h3>Automation Engineer</h3>
-                          <p>As the Product Manager for our South African expansion efforts, you’ll be responsible for driving product innovation in South Africa that'll be targeted and helping out merchants start and scale their businesses. You’ll be the voice of the customer and will help build and maintain delightfully successful products that solve our users' pain points.</p>
-                          <div class="job-tags">
-                            <span>Product</span>
-                            <span>Full-time</span>
-                            <span>South Africa</span>
+            <section class="recurring-section">
+                <div class="container d-flex">
+                        <div class="recurring-image">
+                          <img src="./img/recurring.png" alt="Illustration">
+                        </div>
+                        <div class="recurring-text">
+                          <div class="recurring-text-h2">
+                            <h2>Recurring themes in the work we do</h2>
                           </div>
-                        </div>
-                        <div class="job-action">
-                          <a href="#" class="apply-button">Apply Now</a>
-                          <p>Ongoing</p>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="joins-section">
-        <div class="joins-container">
-            <div class="joins-details">
-                <div class="joins-tittle">
-                    <h2>Join 100+ members team</h2>
-                    <p>Together we change the world in an amazing way</p>
-                </div>
-                <div class="joins-action">
-                    <a href="#" class="joins-button">Join now<i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-
-            </div>
-            <div class="joins-img">
-                <img src="./img/careers-joins-bg.png" alt="Careers Joins Background">
-            </div>
-        </div>
-    </section>
-
-    
-    <footer>
-        <div class="container">
-            <div class="footer-container">
-                <div class="footer-content">
-                    <div class="footer-left">
-                        <div class="footer-left-h4">
-                            <h4>What is Campoal?</h4>
-                        </div>
-                        <div class="footer-left-p">
-                            <p>Campoal is a completed WordPress theme used to create Petition Platform, Foundation and Non-profit website where anyone can start a social movement, collect supporters and fundraising to change something in society.</p>
-                        </div>
-                        <div class="payment-methods">
-                            <img src="./img/footer-logo-1.png" alt="Payment Method 1">
-                            <img src="./img/footer-logo-2.png" alt="Payment Method 1">
-                            <img src="./img/footer-logo-3.png" alt="Payment Method 1">
-                            <img src="./img/footer-logo-4.png" alt="Payment Method 1">
-                          <!-- <img src="./img/Secure badge.png" alt=""> -->
-                        </div>
-                    </div>
-                    <div class="footer-right">
-                        <div class="footer-section">
-                            <h4>Company</h4>
-                            <ul>
-                              <li><a href="#">About</a></li>
-                              <li><a href="#">Contact</a></li>
-                              <li><a href="#">Careers</a></li>
-                              <li><a href="#">Impact</a></li>
-                              <li><a href="#">Testimonials</a></li>
-                              <li><a href="#">Team members</a></li>
-                            </ul>
+                          <div class="recurring-text-p">
+                            <p>Campoal is a mission-driven company, which means that we find ourselves returning to a similar set of questions in everything we do. If you already find yourself thinking about a few of the following questions, chances are high that you’ll love your work at Campoal.</p>
                           </div>
-                      
-                          <div class="footer-section">
-                            <h4>Resource</h4>
-                            <ul>
-                              <li><a href="#">Guide</a></li>
-                              <li><a href="#">FAQs</a></li>
-                              <li><a href="#">Press kits</a></li>
-                              <li><a href="#">Compliance</a></li>
-                              <li><a href="#">Privacy Policy</a></li>
-                              <li><a href="#">Terms of service</a></li>
-                            </ul>
-                          </div>
-                      
-                          <div class="footer-section">
-                            <h4>Community</h4>
-                            <ul>
-                              <li><a href="#">Shop</a></li>
-                              <li><a href="#">Blog</a></li>
-                              <li><a href="#">Forum</a></li>
-                              <li><a href="#">Membership</a></li>
-                              <li><a href="#">Help center</a></li>
-                              <li><a href="#">Support desk</a></li>
-                            </ul>
-                          </div>
+                          <ul>  
+                            <li><span class="checkbox-icon"><i class="fa-solid fa-check"></i></span> How do we make it absurdly easy to start</li>
+                            <li><span class="checkbox-icon"><i class="fa-solid fa-check"></i></span> How do we dramatically increase the volume</li>
+                            <li><span class="checkbox-icon"><i class="fa-solid fa-check"></i></span> What business models can technology make possible</li>
+                          </ul>
+                        </div>
+                </div>
+            </section>
+
+
+
+            <section class="values-section">
+                <div class="container d-flex flex-wrap justify-content-center">
+                    <div class="values-tittle">
+                        <div class="values-tittle-text values-tittle-text-h2"><h2>Values</h2></div>
+                        <div class="values-tittle-text values-tittle-text-p"><p>In addition to a competitive salary, here're a few resources we offer to help our team excel.</p></div>
+                        
+                    </div>
+                    <div class="values-grid">
+                        <div class="values-item d-flex">
+                            <div class="values-img">
+                                <img src="./img/career-values-1.png" alt="Values Icon">
+                            </div>
+                            <div class="values-item-text">
+                                <div class="values-item-text-h3">
+                                    <h3>Choose Transparency</h3>
+                                </div>
+                                <div class="values-item-text-p">
+                                    <p>Share your work often. Openly seek critique. Have the difficult, honest conversation as soon as possible. Get it off your chest
+                                </p></div>
+                            </div>
+                        </div>
+                        <div class="values-item d-flex">
+                            <div class="values-img">
+                                <img src="./img/career-values-2.png" alt="Values Icon">
+                            </div>
+                            <div class="values-item-text">
+                                <div class="values-item-text-h3">
+                                    <h3>Communicate Clearly</h3>
+                                </div>
+                                <div class="values-item-text-p">
+                                    <p>Simplify - refine ideas until they’re easy to explain. Say exactly what you mean. Take care to confirm that you’ve been understood</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="values-item d-flex">
+                            <div class="values-img">
+                                <img src="./img/career-values-3.png" alt="Values Icon">
+                            </div>
+                            <div class="values-item-text">
+                                <div class="values-item-text-h3"><h3>Practice Kindness</h3></div>
+                                <div class="values-item-text-p"><p>Bring positive vibes. Be generous with "thank you” and “sorry.” Lift people up with respect and empathy. Take care of yourself</p></div>
+                            </div>
+                        </div>
+                        <div class="values-item d-flex">
+                            <div class="values-img">
+                                <img src="./img/career-values-4.png" alt="Values Icon">
+                            </div>
+                            <div class="values-item-text">
+                                <div class="values-item-text-h3">
+                                    <h3>Insist on High Standards</h3>
+                                </div>
+                                <div class="values-item-text-p">
+                                    <p>Remember that merchants are trusting you with their livelihoods. Please give this responsibility your very best.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="values-item d-flex">
+                            <div class="values-img">
+                                <img src="./img/career-values-5.png" alt="Values Icon">
+                            </div>
+                            <div class="values-item-text">
+                                <div class="values-item-text-h3">
+                                    <h3>Pursue Growth</h3>
+                                </div>
+                                <div class="values-item-text-p">
+                                    <p>Remember that merchants are trusting you with their livelihoods. Please give this responsibility your very best.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="values-item d-flex">
+                            <div class="values-img">
+                                <img src="./img/career-values-6.png" alt="Values Icon">
+                            </div>
+                            <div class="values-item-text">
+                                <div class="values-item-text-h3"><h3>Embrace the Mission</h3></div>
+                                <div class="values-item-text-p"><p>Celebrate the wins, and cherish both the lessons, and the people we’ll meet along the way. Be brave. Banish fear. Have fun.</p></div>
+                            </div>
+                        </div>
+                       
+                       
+        
                     </div>
                 </div>
-                <div class="footer-bottom">
-                    <div class="footer-bottom-p">
-                        <p>© 2021 Campoal. Powered by Conikal LLC.</p>
+                
+            </section>
+        
+            <section class="recruitment-section">
+                <div class="container">
+                    <div class="recruitment-tittle d-flex flex-wrap justify-content-center">
+                        <div class="recruitment-tittle-text-h2">
+                            <h2>We're looking for talented people</h2>
+                        </div>
+                        <div class="recruitment-tittle-text-p">
+                            <p>We're building simple, powerful tools to connect the people's voices all over the world — and we'd love your help!</p>
+                        </div>
+                        
                     </div>
-                    <div class="social-icons">
-                      <a href="#"><i class="fab fa-facebook-f"></i></a>
-                      <a href="#"><i class="fab fa-twitter"></i></a>
-                      <a href="#"><i class="fab fa-youtube"></i></a>
-                      <a href="#"><i class="fab fa-medium-m"></i></a>
+                    <div class="recruitment-image">
+                        <img src="./img/careers-requirement.png" alt="Team working">
                     </div>
                 </div>
-            </div> 
+            </section>
+        
+        
+            <section class="positions-section">
+                <div class="container d-flex justify-content-center flex-wrap">
+
+                    <div class="position-tittle">
+                        <div class="position-tittle-text-h2"><h2>Open Positions</h2></div>
+                        <div class="position-tittle-text-p"><p>Come join the team!</p></div>
+                    </div>
+
+                    <div class="job-listing">
+                        <div class="job-item">
+                            <div class="job-details">
+                                <div class="job-details-h3">
+                                    <h3>Product Manager, South Africa Expansion</h3>
+                                </div>
+                                <div class="job-details-p">
+                                    <p>As the Product Manager for our South African expansion efforts, you’ll be responsible for driving product innovation in South Africa that’ll be targeted and helping out merchants start and scale their businesses. You’ll be the voice of the customer and will help build and maintain delightfully successful products that solve our users’ pain points.</p>
+                                </div>
+                                
+                                <div class="job-tags">
+                                    <span>Product</span>
+                                    <span>Full-time</span>
+                                    <span>South Africa</span>
+                                </div>
+                            </div>
+                            <div class="job-action">
+                                <button><a href="#" class="apply-button">Apply Now</a></button>
+                                <div class="job-action-p"><p>Ongoing</p></div>
+                                
+                            </div>
+                        </div>
+                  
+                        <div class="job-item">
+                            <div class="job-details">
+                                <div class="job-details-h3">
+                                    <h3>Head of Compliance and Risk</h3>
+                                </div>
+                                <div class="job-details-p">
+                                    <p>As the Product Manager for our South African expansion efforts, you’ll be responsible for driving product innovation in South Africa that’ll be targeted and helping out merchants start and scale their businesses. You’ll be the voice of the customer and will help build and maintain delightfully successful products that solve our users’ pain points.</p>
+                                </div>
+                                           
+                                <div class="job-tags">
+                                    <span>Product</span>
+                                    <span>Full-time</span>
+                                    <span>South Africa</span>
+                                </div>
+                            </div>
+                            <div class="job-action d-flex flex-wrap justify-content-center">
+                                <button><a href="#" class="apply-button">Apply Now</a></button>
+                                <div class="job-action-p"><p>Ongoing</p></div>
+                                
+                            </div>
+                        </div>
+        
+                        <div class="job-item">
+
+                            <div class="job-details">
+                                <div class="job-details-h3">
+                                    <h3>Senior Automation Engineer</h3>
+                                </div>
+                                <div class="job-details-p">
+                                    <p>As the Product Manager for our South African expansion efforts, you’ll be responsible for driving product innovation in South Africa that'll be targeted and helping out merchants start and scale their businesses. You’ll be the voice of the customer and will help build and maintain delightfully successful products that solve our users' pain points.</p>
+                                </div>
+                                
+                              <div class="job-tags">
+                                <span>Product</span>
+                                <span>Full-time</span>
+                                <span>South Africa</span>
+                              </div>
+                            </div>
+
+                            <div class="job-action d-flex flex-wrap justify-content-center">
+                                <button><a href="#" class="apply-button">Apply Now</a></button>
+                                <div class="job-action-p"><p>Ongoing</p></div>
+                                
+                            </div>
+                        </div>
+        
+                        <div class="job-item">
+                                <div class="job-details">
+                                    <div class="job-details-h3">
+                                        <h3>Automation Engineer</h3>
+                                    </div>
+                                    <div class="job-details-p">
+                                        <p>As the Product Manager for our South African expansion efforts, you’ll be responsible for driving product innovation in South Africa that'll be targeted and helping out merchants start and scale their businesses. You’ll be the voice of the customer and will help build and maintain delightfully successful products that solve our users' pain points.</p>
+                                    </div>
+                                 
+                                  
+                                  <div class="job-tags">
+                                    <span>Product</span>
+                                    <span>Full-time</span>
+                                    <span>South Africa</span>
+                                  </div>
+                                </div>
+
+                                <div class="job-action d-flex flex-wrap justify-content-center">
+                                <button><a href="#" class="apply-button">Apply Now</a></button>
+                                <div class="job-action-p"><p>Ongoing</p></div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+        
+            <section class="joins-section">
+                <div class="container d-flex justify-content-center flex-wrap">
+                    <div class="joins-details">
+                        <div class="joins-tittle">
+                            <div class="joins-tittle-text-h2">
+                                <h2>Join 100+ members team</h2>
+                            </div>
+                            <div class="joins-tittle-text-p">
+                                <p>Together we change the world in an amazing way</p>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="joins-action">
+                            <a href="#" class="joins-button">Join now<i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+        
+                    </div>
+                    <div class="joins-img">
+                        <img src="./img/careers-joins-bg.png" alt="Careers Joins Background">
+                    </div>
+                </div>
+            </section>
+        
             
+            <footer>
+                <div class="container">
+                    <div class="footer-container">
+                        <div class="footer-content">
+                            <div class="footer-left">
+                                <div class="footer-left-h4">
+                                    <h4>What is Campoal?</h4>
+                                </div>
+                                <div class="footer-left-p">
+                                    <p>Campoal is a completed WordPress theme used to create Petition Platform, Foundation and Non-profit website where anyone can start a social movement, collect supporters and fundraising to change something in society.</p>
+                                </div>
+                                <div class="payment-methods">
+                                    <img src="./img/footer-logo-1.png" alt="Payment Method 1">
+                                    <img src="./img/footer-logo-2.png" alt="Payment Method 1">
+                                    <img src="./img/footer-logo-3.png" alt="Payment Method 1">
+                                    <img src="./img/footer-logo-4.png" alt="Payment Method 1">
+                                  <!-- <img src="./img/Secure badge.png" alt=""> -->
+                                </div>
+                            </div>
+                            <div class="footer-right">
+                                <div class="footer-section">
+                                    <h4>Company</h4>
+                                    <ul>
+                                      <li><a href="#">About</a></li>
+                                      <li><a href="#">Contact</a></li>
+                                      <li><a href="#">Careers</a></li>
+                                      <li><a href="#">Impact</a></li>
+                                      <li><a href="#">Testimonials</a></li>
+                                      <li><a href="#">Team members</a></li>
+                                    </ul>
+                                  </div>
+                              
+                                  <div class="footer-section">
+                                    <h4>Resource</h4>
+                                    <ul>
+                                      <li><a href="#">Guide</a></li>
+                                      <li><a href="#">FAQs</a></li>
+                                      <li><a href="#">Press kits</a></li>
+                                      <li><a href="#">Compliance</a></li>
+                                      <li><a href="#">Privacy Policy</a></li>
+                                      <li><a href="#">Terms of service</a></li>
+                                    </ul>
+                                  </div>
+                              
+                                  <div class="footer-section">
+                                    <h4>Community</h4>
+                                    <ul>
+                                      <li><a href="#">Shop</a></li>
+                                      <li><a href="#">Blog</a></li>
+                                      <li><a href="#">Forum</a></li>
+                                      <li><a href="#">Membership</a></li>
+                                      <li><a href="#">Help center</a></li>
+                                      <li><a href="#">Support desk</a></li>
+                                    </ul>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="footer-bottom">
+                            <div class="footer-bottom-p">
+                                <p>© 2021 Campoal. Powered by Conikal LLC.</p>
+                            </div>
+                            <div class="social-icons">
+                              <a href="#"><i class="fab fa-facebook-f"></i></a>
+                              <a href="#"><i class="fab fa-twitter"></i></a>
+                              <a href="#"><i class="fab fa-youtube"></i></a>
+                              <a href="#"><i class="fab fa-medium-m"></i></a>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                </div>
+            </footer>
         </div>
-    </footer>
+    </div>
 
     <script src="./js/index.js"></script>
 </body>
