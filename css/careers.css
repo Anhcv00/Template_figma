@@ -483,7 +483,7 @@ footer {
     height: 512px;
     position: absolute;
     top: -120px;
-    left: 28%;
+    left: 22%;
 }
 
 /* Benefit section */
@@ -1089,8 +1089,14 @@ footer {
 }
 
 .benefits-grid{
+  padding: 40px;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+.benefit-item{
+  width: 100%;
+  height: auto;
 }
 
   /* values-sections */

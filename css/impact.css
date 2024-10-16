@@ -49,7 +49,9 @@ ul{
   align-items: center;
 }
 
-
+.wrapper > .container {
+  background-color: #FFFCF7;
+}
 /* Container for responsive width */
 
 
@@ -971,8 +973,89 @@ footer {
   }
   
 
-  /*------------------- Hourly sections ------------------------ */
+  /*------------------- Victory-overlay-section ------------------------ */
 
+  .victory-overlay-section {
+  
+    position: relative;
+    text-align: left;
+    padding: 60px 0px;
+  }
+  
+  .victory-overlay-content {
+    width: 1440px;
+    height: 757px;
+    display: flex;
+    padding: 110px 0px 0px 130px;
+    position: relative;
+  }
+  
+  .victory-text-box {
+    width: 385px;
+    height: 459px;
+    background-color: white;
+    padding: 48px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+  }
+
+
+  .victory-text-h3{
+    width: 261px;
+    height: 172px;
+    margin-bottom: 53px;
+  }
+  
+  .victory-text-box img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 48px;
+  }
+  
+  .victory-text-box h3 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 43.31px;
+    letter-spacing: -2px;
+    color: #2B2B39;
+  }
+
+  .victory-button{
+    width: 147px;
+    height: 22px;
+  }
+  
+  .victory-text-box a {
+    text-decoration: none;
+    font-family: Sen;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.66px;
+    
+    color: #2B2B39;
+  }
+  
+
+
+  .victory-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    filter: opacity(0.5);
+    object-fit: cover;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .victory-text-box h3 {
+      font-size: 18px;
+    }
+  }
 
 
 /* -------------------- powered-members-section ---------------- */
@@ -1071,7 +1154,7 @@ footer {
   /*-------------------- Victory sections ----------------------*/
 
   .victory-highlight-section {
-    padding: 120px 153px 50px 157px;
+    padding: 120px 0px;
   }
   .victory-tittle{
     width: 568px;
@@ -1298,6 +1381,11 @@ footer {
 
   /* victory-highlight-section */
 
+  .victory-highlight-section{
+    padding: 60px 0px;
+  }
+
+
   .victory-tittle{
       align-items: center;
       justify-content: center;
@@ -1314,6 +1402,12 @@ footer {
       width: 100%;
       text-align: center;
   }
+  
+  .victory-text-box{
+    width: 50%;
+    height: auto;
+  }
+
 
   .highlights{
       grid-template-columns: repeat(2, 1fr);
@@ -1321,6 +1415,12 @@ footer {
   .highlight-card{
       width: 100%;
       height: auto;
+  }
+
+  .victory-overlay-content{
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
   }
 
   /* action-section */
@@ -1349,6 +1449,17 @@ footer {
       width: 100%;
       height: auto;
   }
+
+
+
+  .victory-text-box{
+    width: auto;
+    height: auto;
+  }
+
+
+
+
 
   /* powered-members-section */
 
@@ -1546,7 +1657,37 @@ footer {
         width: 100%;
         height: auto;
     }
+    
+    .victory-text-box {
+      width: 400px;
+      height: 300px;
+  }
 
+  .victory-overlay-content{
+    height: auto;
+    padding-top: 60px;
+  }
+  .victory-overlay-section{
+    height: auto;
+  }
+
+  .victory-text-box img{
+    margin-bottom: 12px;
+    
+  }
+  .victory-text-h3{
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  .victory-text-box{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
     /* victory-highlight-section */
 
     .victory-highlight-section{
